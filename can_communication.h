@@ -1,0 +1,21 @@
+#ifndef H_CAN_COMMUNICATION
+#define H_CAN_COMMUNICATION
+
+#define CAN_ID_REQUEST 0x10
+#define CAN_EN_ACC_MASK 0x10
+#define ACC_OFFSET 4
+#define CAN_EN_MAG_MASK 0x04
+#define MAG_OFFSET 2
+#define CAN_EN_GYR_MASK 0x08
+#define GYR_OFFSET 3
+#define CAN_EN_BAR_MASK 0x02
+#define BAR_OFFSET 1
+#define CAN_EN_TEMP_MASK 0x01
+
+#define CAN_ID_ACC 0x100
+#define CAN_ID_MAG 0x300
+#define CAN_ID_GYR 0x200
+#define CAN_ID_BAR 0x400
+#define CAN_ID_TEMP 0x500
+
+#endif

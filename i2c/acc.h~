@@ -1,0 +1,10 @@
+#ifndef ACC_H
+#define ACC_H
+
+#define CTRL_REG1_A 0x20
+#define OUT_X_L_REG 0x28
+#define OUT_Y_L_REG 0x2A
+#define OUT_Z_L_REG 0x2C
+
+
+#endif
